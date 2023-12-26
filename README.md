@@ -6,6 +6,7 @@ Welcome to Elemental Euphoria, an exhilarating element guessing game that will p
 
 In "Elemental Euphoria," you'll find yourself in a race against time to guess the correct element based on given properties. As the clock ticks down, different flashcards containing hints about the mystery element will be presented. It's your challenge to decipher the clues and identify the element within a limited number of guesses.
 
+ps: the sql database was created only because it was a requirement in my school project. otherwise it would have been better to use some other system  
 ...
 
 ## About the Developer
