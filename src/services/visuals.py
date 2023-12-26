@@ -169,18 +169,11 @@ class Visuals:
         title_font = Visuals.load_font_bold(25)
         pad = 340
         pad_y = 20
-        Visuals.draw_text(screen, Visuals.load_font_bold(45), 'Developer', None, Constants.BLACK, (Constants.SCREEN_WIDTH/2, Constants.SCREEN_HEIGHT/2 + 60 +pad_y))
-        Visuals.draw_text(screen, title_font, 'Programer', None, Constants.BLACK, (Constants.SCREEN_WIDTH/2, Constants.SCREEN_HEIGHT - 175.5 + pad_y), 'midbottom')
+        Visuals.draw_text(screen, Visuals.load_font_bold(45), 'Developer', None, Constants.BLACK, (Constants.SCREEN_WIDTH/2, Constants.SCREEN_HEIGHT/2 + 80 +pad_y))
+        # Visuals.draw_text(screen, title_font, 'Programer', None, Constants.BLACK, (Constants.SCREEN_WIDTH/2, Constants.SCREEN_HEIGHT - 175.5 + pad_y), 'midbottom')
         Visuals.draw_text(screen, name_font, 'Shubhanyu Jain', None, Constants.BLACK, (Constants.SCREEN_WIDTH/2, Constants.SCREEN_HEIGHT - 163 + pad_y), 'midtop')
        
-        Visuals.draw_text(screen, title_font, 'Data', None, Constants.BLACK, (Constants.SCREEN_WIDTH/2 - pad + Visuals.get_text_width('Data', title_font, None)/2, Constants.SCREEN_HEIGHT - 175.5 + pad_y), 'midbottom')
-        Visuals.draw_text(screen, Visuals.load_font(22), 'Shivank', None, Constants.BLACK, (Constants.SCREEN_WIDTH/2 - pad + Visuals.get_text_width('Data', title_font, None)/2, Constants.SCREEN_HEIGHT - 163 + pad_y), 'midtop')
-        Visuals.draw_text(screen, Visuals.load_font(22), 'Nandanwar', None, Constants.BLACK, (Constants.SCREEN_WIDTH/2 - pad + Visuals.get_text_width('Data', title_font, None)/2, Constants.SCREEN_HEIGHT - 137 + pad_y), 'midtop')
-        
-        Visuals.draw_text(screen, title_font, 'Sounds', None, Constants.BLACK, (Constants.SCREEN_WIDTH/2 + pad - Visuals.get_text_width('Sounds', title_font, None)/2, Constants.SCREEN_HEIGHT - 175.5 + pad_y), 'midbottom')
-        Visuals.draw_text(screen, name_font, 'Avi Goel', None, Constants.BLACK, (Constants.SCREEN_WIDTH/2 + pad + 20 - Visuals.get_text_width('Sounds', title_font, None)/2, Constants.SCREEN_HEIGHT - 163 + pad_y), 'midtop')
-        
-        Visuals.draw_text(screen, title_font, 'Class XI-D', None, Constants.BLACK, (Constants.SCREEN_WIDTH/2, Constants.SCREEN_HEIGHT - 40), 'midbottom')
+        Visuals.draw_text(screen, title_font, 'Class XI', None, Constants.BLACK, (Constants.SCREEN_WIDTH/2, Constants.SCREEN_HEIGHT - 40), 'midbottom')
         
         Visuals.draw_game_title(screen)
         text_y = 210
